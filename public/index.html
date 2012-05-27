@@ -4,6 +4,26 @@
         <meta charset="utf-8" />
         <title>Petr Jašek</title>
         <link rel="canonical" href="http://petrjasek.org" />
+
+        <style>
+            body {
+                font-family: Georgia, serif;
+                color: #000;
+                background-color: #fff;
+            }
+            dl {
+                margin: 13% 0 0 13%;
+            }
+            dt {
+                font-size: 3.4em;
+            }
+            dd {
+                margin: 0.25em 0 0;
+                font-size: 2.1em;
+                color: #333;
+                background-color: #fff;
+            }
+        </style>
         
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -18,19 +38,15 @@
         </script>
     </head>
     <body>
-        <h1 itemprop="name">Petr Jašek</h1>
-        <p itemprop="jobTitle"><abbr title="Open Source">os</abbr> dev</p>
-
-        <dl itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <dt>loc</dt>
-            <dd itemprop="addressLocality">Prague</dd>
-            <dd itemprop="addressCountry"><abbr title="Czech Republic">CZ</abbr></dd>
-        </dl>
-
         <dl>
-            <dt>ping</dt>
+            <dt itemprop="name">Petr Jašek</dt>
+            <dd itemprop="jobTitle"><abbr title="Open Source">os</abbr> dev</dd>
+            <dd itemprop="birthDate">* 1986</dd>
+            <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="addressLocality">Prague</span>, <abbr itemprop="addressCountry" title="Czech Republic">CZ</abbr>
+            </dd>
             <dd itemprop="telephone">+420 606 539 030</dd>
-            <dd><a href="mailto:petr@petrjasek.org" itemprop="email" title="Mail me">petr@petrjasek.org</a></dd>
+            <dd><a href="mailto:petr@petrjasek.org" itemprop="email" title="Send me an email">petr@petrjasek.org</a></dd>
         </dl>
     </body>
 </html>
